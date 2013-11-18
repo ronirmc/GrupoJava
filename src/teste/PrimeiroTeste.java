@@ -5,6 +5,7 @@ public class PrimeiroTeste {
 		System.out.println("Primeiro Test");
 		
 		System.err.println("Segundo teste");
+		System.err.println("Terceiro teste");
 	}
 	
 	
