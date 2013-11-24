@@ -10,6 +10,7 @@ public class PrimeiroTeste {
 		
 		System.out.println("Hello Roni :)");
 		System.out.println("Hello Victor :)");
+		System.out.println("Hello testanto :)");
 	}
 	
 	
