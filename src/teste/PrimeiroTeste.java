@@ -9,6 +9,7 @@ public class PrimeiroTeste {
 		System.err.println("Quarto teste");
 		
 		System.out.println("Hello Roni :)");
+		System.out.println("Hello Victor :)");
 	}
 	
 	
