@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="classesdedominio" nsURI="http://classesdedominio/1.0" nsPrefix="classesdedominio">
+  <eClassifiers xsi:type="ecore:EClass" name="Material" eSuperTypes="#//Acessos">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ERefer" eType="#//Tópico"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="n" eType="#//Arquivo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="n" eType="#//Tipo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="1" eType="#//Origem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="n" eType="#//Acessos"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass0"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Acessos">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Visualizações"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tipo">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Característica"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Origem">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Endereço"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Usuario">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nome"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Senha"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EReference0" eType="#//Avaliar"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tópico">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Título"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Disciplina"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Arquivo"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass5"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Avaliar">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="" eType="#//Usuario"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nota"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Descreção"/>
+  </eClassifiers>
+</ecore:EPackage>
