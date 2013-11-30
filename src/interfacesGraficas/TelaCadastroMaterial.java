@@ -41,24 +41,24 @@ public class TelaCadastroMaterial extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Cadastro de Materiais");
 
-        jLabel1.setText("Título *");
-        jLabel1.setToolTipText("Título do material.");
+        jLabel1.setText("TÃ­tulo *");
+        jLabel1.setToolTipText("TÃ­tulo do material.");
 
         jLabel2.setText("Autor *");
         jLabel2.setToolTipText("Autor do material.");
 
-        jLabel3.setText("Tópico *");
+        jLabel3.setText("TÃ³pico *");
         jLabel3.setToolTipText("Temas abordados no material.");
 
-        jLabel4.setText("Créditos");
+        jLabel4.setText("CrÃ©ditos");
         jLabel4.setToolTipText("");
 
         jLabel5.setText("Download");
 
         jLabel6.setText("Data");
 
-        jLabel7.setText("Descrição");
-        jLabel7.setToolTipText("Escreva aqui a descrição do material.");
+        jLabel7.setText("DescriÃ§Ã£o");
+        jLabel7.setToolTipText("Escreva aqui a descriÃ§Ã£o do material.");
 
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
