@@ -12,9 +12,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Acessos">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Visualizações"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Tipo">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Característica"/>
-  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tipo"/>
   <eClassifiers xsi:type="ecore:EClass" name="Origem">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Endereço"/>
   </eClassifiers>

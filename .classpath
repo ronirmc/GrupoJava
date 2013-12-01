@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="docs"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="src" path="sql"/>
+	<classpathentry kind="src" path="duvidas"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

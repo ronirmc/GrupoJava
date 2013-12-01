@@ -41,10 +41,6 @@
   <children xmi:type="notation:Node" xmi:id="_wp_40FnqEeOpb97qkQZfcQ" type="1001">
     <children xmi:type="notation:Node" xmi:id="_wqBG8FnqEeOpb97qkQZfcQ" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_wqBG8VnqEeOpb97qkQZfcQ" type="5001">
-      <children xmi:type="notation:Node" xmi:id="_fWGdMFnsEeOpb97qkQZfcQ" type="2001">
-        <element xmi:type="ecore:EAttribute" href="ClassesDeDominio.ecore#//Tipo/Característica"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_fWGdMVnsEeOpb97qkQZfcQ"/>
-      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_wqBG8lnqEeOpb97qkQZfcQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_wqBG81nqEeOpb97qkQZfcQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_wqBG9FnqEeOpb97qkQZfcQ"/>
