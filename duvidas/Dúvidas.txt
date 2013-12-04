@@ -1,1 +1,4 @@
-1 - O Tipo no caso seria a extens�o ou v�deo , texto etc?
+1 - O Tipo no caso seria a extens�o ou v�deo , texto etc?
+  -Pelo que eu tinha entendido na reunião seria só uma descrição do tipo do material, poderia ser a extensao mesmo.
+  
+2 - Precisamos modelar quais tabelas são necessárias no banco, quais tabelas seriam necessárias a principio?
