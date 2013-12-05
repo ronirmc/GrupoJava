@@ -7,14 +7,18 @@ public class Teste {
 		Class.forName("org.h2.Driver");
 		// Abre uma conexão. Para o teste escolha algum diretório do seu pc escolha um nome de usuário qualquer
 		// e uma senha qualquer.
+<<<<<<< HEAD
 		Connection conn = DriverManager.getConnection("jdbc:h2:banco", "vh", "");
+=======
+		Connection conn = DriverManager.getConnection("jdbc:h2:~/banco", "sa", "123");
+>>>>>>> 7aee0d25ed0146e0c2ecd64644b6d194b1f3f87c
 		//Instancia um objeto responsável por executar os comandos SQL.
 		Statement test = conn.createStatement();
 		
 		//Comandos de criação/inserção de tabelas/dados, executar apenas na primeira vez que você testar.
-//		test.execute("CREATE TABLE MATERIAIS(ID INT PRIMARY KEY, URL VARCHAR(255));"); //Cria tabela
-//		test.execute("INSERT INTO MATERIAIS VALUES(1,'www.google.com');"); //Insere algo conforme o declarado na criação da tabela
-//		test.execute("INSERT INTO MATERIAIS VALUES(2,'www.youtube.com');"); //Insere algo conforme o declarado na criação da tabela
+	//test.execute("CREATE TABLE MATERIAIS(ID INT PRIMARY KEY, URL VARCHAR(255));"); //Cria tabela
+	//test.execute("INSERT INTO MATERIAIS VALUES(1,'www.google.com');"); //Insere algo conforme o declarado na criação da tabela
+	//test.execute("INSERT INTO MATERIAIS VALUES(2,'www.youtube.com');"); //Insere algo conforme o declarado na criação da tabela
 		
 		//Instancia o objeto que contém o resultado da busca.
 		ResultSet rs = test.executeQuery("SELECT * FROM MATERIAIS");
