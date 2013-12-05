@@ -1,0 +1,6 @@
+12-05 20:58:00 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATERIAIS" not found; SQL statement:
+SELECT * FROM MATERIAIS [42102-173]
+12-05 21:05:09 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "MATERIAIS" not found; SQL statement:
+SELECT * FROM MATERIAIS [42102-173]

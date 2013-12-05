@@ -7,7 +7,7 @@ public class Teste {
 		Class.forName("org.h2.Driver");
 		// Abre uma conexão. Para o teste escolha algum diretório do seu pc escolha um nome de usuário qualquer
 		// e uma senha qualquer.
-		Connection conn = DriverManager.getConnection("jdbc:h2:~/banco", "vh", "");
+		Connection conn = DriverManager.getConnection("jdbc:h2:banco", "vh", "");
 		//Instancia um objeto responsável por executar os comandos SQL.
 		Statement test = conn.createStatement();
 		
